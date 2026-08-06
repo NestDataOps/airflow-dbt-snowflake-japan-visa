@@ -1,8 +1,8 @@
 ## Project
-name: tasty_bytes
+name: japan_visa
 version: "1.0"
 config-version: 2
-profile: tasty_bytes
+profile: japan_visa
 
 ## Sources
 model-paths: [models]
