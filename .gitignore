@@ -1,0 +1,71 @@
+# ==========================================
+# Python / Virtual Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.*
+
+# ==========================================
+# Apache Airflow
+# ==========================================
+# Ignore Airflow task logs
+/logs/
+
+# Standard Airflow generated files (if run locally outside Docker)
+airflow-webserver.pid
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# ==========================================
+# dbt (Data Build Tool)
+# ==========================================
+# Ignore compiled code and run results
+/japan_visa_dbt/target/
+
+# Ignore installed dbt packages
+/japan_visa_dbt/dbt_packages/
+/japan_visa_dbt/dbt_modules/
+
+# Ignore dbt logs
+/japan_visa_dbt/logs/
+
+# Ignore dbt profiles (often contains database credentials!)
+/japan_visa_dbt/profiles.yml
+
+# ==========================================
+# OS Generated Files (macOS specific)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
