@@ -1,0 +1,22 @@
+japan_visa:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: IQFGCYU-UA55363
+      user: NESTDATAOPS
+      password: "{{ env_var('DBT_SNOWFLAKE_PASSWORD') }}"
+      role: accountadmin
+      database: japan_visa_db
+      schema: cleaned
+      warehouse: japan_visa_wh
+      threads: 8
+    prod:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: accountadmin
+      database: tasty_bytes_dbt_db
+      schema: prod
+      warehouse: tasty_bytes_dbt_wh
+      threads: 8

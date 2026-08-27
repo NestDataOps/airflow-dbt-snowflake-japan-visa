@@ -55,8 +55,6 @@ standalone_admin_password.txt
 # Ignore dbt logs
 /japan_visa_dbt/logs/
 
-# Ignore dbt profiles (often contains database credentials!)
-/japan_visa_dbt/profiles.yml
 
 # ==========================================
 # OS Generated Files (macOS specific)
