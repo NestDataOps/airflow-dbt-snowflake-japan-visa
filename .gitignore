@@ -55,6 +55,7 @@ standalone_admin_password.txt
 # Ignore dbt logs
 /japan_visa_dbt/logs/
 
+dbt.env
 
 # ==========================================
 # OS Generated Files (macOS specific)
